@@ -1,0 +1,214 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;  
+}
+html{
+    background: #F9F9F9;
+    margin: 0
+}
+
+.section{
+    padding: 27px 29px 27px 29px;
+    background-image: url(/src/assets/images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: auto;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+    position: relative;
+}
+.subtitle-row{
+    margin-bottom: 40px;
+}
+.line-img{
+    position: absolute;
+    z-index: 1;
+    align-self: center;
+}
+.line1{
+    width: 214px;
+}
+.line2{
+    width: 192px;
+}
+.line3{
+    width: 145px;
+}
+.title{
+    color: #3B8FDC;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Metripolis-Bold';
+    width: 317px;
+    align-self: center;
+    margin-bottom: 13px;
+}
+.description{
+    color: #555555;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Metripolis-Light';
+    width: 286px;
+    align-self: center;
+}
+.description-blue{
+    color: #3B8FDC;
+}
+.box-row:last-child{
+    margin-bottom: 0px;
+}
+.box{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 335px;
+    align-self: center;
+    box-shadow: 0px 0px 10px 0px rgba(18, 62, 81, 0.05);
+    margin-bottom: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.box-text{
+    color: #555555;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Metripolis-SemiBold';
+    text-align: center;
+    align-self: center;
+}
+.box-img{
+    width: 60px;
+    align-self: center;
+    margin-right: 12px;
+}
+.subtitle{
+    color: #3B8FDC;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    font-family: 'Metripolis-Bold';
+    align-self: center;
+    margin-bottom: 13px;
+}
+.user-row{
+    margin-bottom: 10px;
+}
+.logo-row{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    border: 2px solid white;
+    margin: auto;
+    padding: 40px 30px 15px 30px;
+    width: 206px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-row_text{
+    width: 143;
+    font-size: 14px;
+    line-height: 19.12px;
+    text-align: center;
+    align-self: center;
+    color: #211C1C;
+    font-family: 'Metripolis-Medium';
+    width: 153px;
+}
+.logo-img{
+    align-self: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 105px;
+}
+.number-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.number-row_number{
+    color: #3B8FDC;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'Metripolis-ExtaBold';
+    margin-right: 12px;
+}
+.number-row_rating{
+    font-size: 12px;
+    color: #555555;
+    font-family: 'Metripolis-Regular';
+    align-self: center;
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.raiting-img{
+    width: 335px;
+    align-self: center;
+}
+.btn{
+    background-color: #3B8FDC;
+    border-radius: 30px;
+    border: 3px solid white;
+    outline: 3px solid #3B8FDC;
+    padding: 11px 0px;
+    width: 260px;
+    font-size: 20px;
+    font-family: 'Metripolis-Bold';
+    color: white;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Metripolis-Bold';
+    src: local('Metripolis-Bold'),
+         url(/src/assets/fonts/Metropolis-Bold.otf)
+}
+@font-face {
+    font-family: 'Metripolis-Light';
+    src: local('Metripolis-Light'),
+         url(/src/assets/fonts/Metropolis-Light.otf)
+}
+@font-face {
+    font-family: 'Metripolis-ExtaBold';
+    src: local('Metripolis-ExtaBold'),
+         url(/src/assets/fonts/Metropolis-ExtraBold.otf)
+}
+@font-face {
+    font-family: 'Metripolis-Medium';
+    src: local('Metripolis-Medium'),
+         url(/src/assets/fonts/Metropolis-Medium.otf)
+}
+@font-face {
+    font-family: 'Metripolis-Regular';
+    src: local('Metripolis-Regular'),
+         url(/src/assets/fonts/Metropolis-Regular.otf)
+}
+@font-face {
+    font-family: 'Metripolis-SemiBold';
+    src: local('Metripolis-SemiBold'),
+         url(/src/assets/fonts/Metropolis-SemiBold.otf)
+}
